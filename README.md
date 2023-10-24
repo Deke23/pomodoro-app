@@ -1,6 +1,41 @@
-# Getting Started with Create React App
+# Pomodoro Timer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The pomodoro Technique is a time management method developed by Francesco Cirillo in the 
+late 1980s. The technique uses a timer to break down work into intervals, traditionally 25 munites in length, seperated by short breaks. These intervals are known as "pomodoros", the plural in English of the Italian word pomodoro (tomato), after the tomato-shaped kitchen timer that Cirillo used as a university student.
+
+The goal of this project is to create a simple pomodoro timer app that plays binaural wave sound in the background during focus periods. The timer should have the following features : 
+
+-A 25-minute focus period followed by a 5-minute break period.
+-A Longer 15-minute break period after every fourth focus period.
+-A visual countdown timer that displays the remaining time in minutes and seconds.
+-A sound effect that plays at the end of each focus period and break period.
+-The ability to pause and resume the timer.
+-The ability to reset the timer.
+
+The binaural wave sound should be played in the background during the focus periods to help users stay focused and productive. The sound should be played at a low volume so as not to be distracting.
+
+## Installation
+
+To get started with this project, you'll need to have Node.js and npm installed on your computer. You can download and install Node.js from the official website.
+
+Once you have Node.js installed, you can clone this repository and install its dependecies by running:
+git clone https://github.com/your-username/pomodoro.git cd pomodoro npm install
+
+## Usage
+
+To start the development server, run:
+npm start
+
+This will start the development server and open the app in your default browser.
+
+To build a production-ready version of your app, run:
+npm run build
+
+This will create an optimized build of your app in the 'build' directory.
+
+## Testing
+
+To test your app, you can use Jest and react testing library.
 
 ## Available Scripts
 
